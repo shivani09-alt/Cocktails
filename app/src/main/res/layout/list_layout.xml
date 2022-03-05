@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginStart="@dimen/dimen5"
+    android:layout_marginEnd="@dimen/dimen5"
+    android:layout_marginBottom="@dimen/dimen10"
+    android:orientation="vertical"
+    android:id="@+id/mainLayout"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/drink_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen150"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/drink_name"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/dimen10"/>
+
+</LinearLayout>

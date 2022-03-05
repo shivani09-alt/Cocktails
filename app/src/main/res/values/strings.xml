@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cocktail</string>
+    <string name="search_cocktail">Search For a Cocktail...</string>
+    <string name="instructions">Instructions</string>
+    <string name="glass">Glass</string>
+    <string name="no_data_available">No Data Available</string>
+    <string name="scan_any_qr">Scan Any QR</string>
+    <string name="cocktail_details">Cocktail Details</string>
+</resources>
